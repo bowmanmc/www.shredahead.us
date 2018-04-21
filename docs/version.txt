@@ -1,0 +1,12 @@
+
+ShredAhead Website
+==================
+Name: www.shredahead.us
+Description: Website for www.shredahead.us
+URL: git+https://github.com/bowmanmc/www.shredahead.us.git
+Version: 1.0.0
+Git Branch: master
+Git Revision: b789c36097328374a2d11e966d01be57cc10753f
+Build Time: 2018-04-20 20:26:10
+Build Host: smallville.lan [darwin]
+
