@@ -1,0 +1,56 @@
+
+$footer-link-hover: lighten($clr-highlight, 15%);
+
+footer {
+    background: $clr-dark;
+    border-top: 5px solid $clr-dark;
+    color: $clr-gray-90;
+    font-size: 0.9rem;
+    min-height: 400px;
+    padding: 1.5em;
+    text-align: center;
+
+    a {
+        color: $clr-highlight;
+        text-decoration: none;
+
+        &:hover {
+            color: $footer-link-hover;
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer__content {
+    @include outer-container(100%);
+
+    section {
+        @include span-columns(12);
+        padding: 0;
+
+        @include media($desktop) {
+            @include span-columns(4);
+        }
+    }
+}
+
+.footer__copy {
+    color: $clr-gray-70;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 3.0em 0;
+    text-transform: uppercase;
+}
+
+.footer__logo-ctr {
+    padding: 1.0em 0;
+
+    svg {
+        max-width: 256px;
+        width: 50%;
+    }
+}
+
+use.footer__logo {
+    fill: $clr-gray-70;
+}

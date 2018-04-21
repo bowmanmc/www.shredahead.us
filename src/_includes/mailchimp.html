@@ -1,0 +1,15 @@
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script type="text/javascript">
+    function showMCPopup() {
+        require(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us16.list-manage.com",
+                "uuid": "a8206a9259a3c4ed27754d255",
+                "lid": "46ebda9090"
+            });
+            document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+        });
+    }
+    document.getElementById("btnSignup").onclick = function() {showMCPopup()};
+</script>
