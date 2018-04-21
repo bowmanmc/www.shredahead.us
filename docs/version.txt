@@ -6,7 +6,7 @@ Description: Website for www.shredahead.us
 URL: git+https://github.com/bowmanmc/www.shredahead.us.git
 Version: 1.0.0
 Git Branch: master
-Git Revision: 31ea9a27ddc1cfdca4e4f26489a25c3e51fb22b1
-Build Time: 2018-04-20 20:39:23
+Git Revision: aa3c9aea1f3795fe3fe5a947f829d2928f31a22d
+Build Time: 2018-04-20 21:52:42
 Build Host: smallville.lan [darwin]
 
