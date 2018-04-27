@@ -390,8 +390,8 @@ use.footer__logo {
 
 header {
   background-color: #000000;
-  background-image: url(../images/juan-di-nella-966-unsplash.jpg);
-  background-image: linear-gradient(to right, rgba(27, 39, 47, 0.55), rgba(242, 72, 43, 0.55), rgba(239, 233, 165, 0.55)), url(../images/juan-di-nella-966-unsplash.jpg);
+  background-image: url(../images/juan-di-nella-966-unsplash-mobile.jpg);
+  background-image: linear-gradient(to right, rgba(27, 39, 47, 0.55), rgba(242, 72, 43, 0.55), rgba(239, 233, 165, 0.55)), url(../images/juan-di-nella-966-unsplash-mobile.jpg);
   background-size: cover;
   border-bottom: 1px solid #ffffff;
   color: #ffffff;
@@ -399,6 +399,10 @@ header {
   flex-direction: column;
   min-height: 75%;
   text-align: center; }
+  @media screen and (min-width: 768px) {
+    header {
+      background-image: url(../images/juan-di-nella-966-unsplash.jpg);
+      background-image: linear-gradient(to right, rgba(27, 39, 47, 0.55), rgba(242, 72, 43, 0.55), rgba(239, 233, 165, 0.55)), url(../images/juan-di-nella-966-unsplash.jpg); } }
   header .mc_embed_signup {
     background-color: #1B272F;
     background-color: rgba(27, 39, 47, 0.75);

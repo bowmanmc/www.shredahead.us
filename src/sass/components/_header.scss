@@ -2,9 +2,8 @@
 $trans: 0.45;
 header {
     background-color: $clr-black;
-    background-image: url(../images/juan-di-nella-966-unsplash.jpg);
-    //background-image: linear-gradient(to right, transparentize(#1a2a6c, $trans), transparentize(#b21f1f, $trans), transparentize(#fdbb2d, $trans)), url(../images/juan-di-nella-966-unsplash.jpg);
-    background-image: linear-gradient(to right, transparentize($clr-dark, $trans), transparentize($clr-red, $trans), transparentize($clr-yellow, $trans)), url(../images/juan-di-nella-966-unsplash.jpg);
+    background-image: url(../images/juan-di-nella-966-unsplash-mobile.jpg);
+    background-image: linear-gradient(to right, transparentize($clr-dark, $trans), transparentize($clr-red, $trans), transparentize($clr-yellow, $trans)), url(../images/juan-di-nella-966-unsplash-mobile.jpg);
     background-size: cover;
     border-bottom: 1px solid $clr-white;
     color: $clr-white;
@@ -12,6 +11,11 @@ header {
     flex-direction: column;
     min-height: 75%;
     text-align: center;
+
+    @include media($desktop) {
+        background-image: url(../images/juan-di-nella-966-unsplash.jpg);
+        background-image: linear-gradient(to right, transparentize($clr-dark, $trans), transparentize($clr-red, $trans), transparentize($clr-yellow, $trans)), url(../images/juan-di-nella-966-unsplash.jpg);
+    }
 
     .mc_embed_signup {
         background-color: $clr-dark;
